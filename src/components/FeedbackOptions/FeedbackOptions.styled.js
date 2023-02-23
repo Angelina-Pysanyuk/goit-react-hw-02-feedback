@@ -9,14 +9,13 @@ export const ButtonFbWrapper = styled.div`
 export const ButtonFb = styled.button`
   width: 90px;
   height: 40px;
-  border: 2px solid #e1d7c6;
+  border: none;
   border-radius: 6px;
   color: #8b7e74;
   background-color: #ece8dd;
   font-size: 18px;
 
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
 
